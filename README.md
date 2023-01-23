@@ -17,7 +17,7 @@ mv ~/.local/share/nvim ~/.local/share/nvim.bak
 ### 2. Clone the starter
 
 ```sh
-gh repo clone ebruning/lazyvim .config/nvim
+gh repo clone ebruning/lazyvim ~/.config/nvim
 ```
 
 ### 3. Start Neovim!
