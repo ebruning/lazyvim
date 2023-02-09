@@ -3,3 +3,4 @@
 -- Add any additional options here
 local opt = vim.opt
 opt.relativenumber = false
+vim.api.nvim_command("set fillchars=eob:\\ ")
