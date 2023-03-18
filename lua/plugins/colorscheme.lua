@@ -1,6 +1,7 @@
 return {
   -- add gruvbox
   { "ellisonleao/gruvbox.nvim" },
+  { "arturgoms/moonbow.nvim" },
   {
     "catppuccin/nvim",
     lazy = true,
@@ -10,7 +11,8 @@ return {
     "LazyVim/LazyVim",
     opts = {
       -- colorscheme = "gruvbox",
-      colorscheme = "catppuccin-mocha",
+      -- colorscheme = "catppuccin-mocha",
+      colorscheme = "moonbow",
     },
   },
 }
