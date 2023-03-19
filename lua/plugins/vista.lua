@@ -1,4 +1,4 @@
 return {
   -- add gruvbox
-  { "liuchengxu/vista.vim" },
+  { "liuchengxu/vista.vim", enabled = true },
 }
