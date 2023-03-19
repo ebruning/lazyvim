@@ -12,10 +12,4 @@ local function map(mode, lhs, rhs, opts)
   end
 end
 
--- Unused
--- map("n", "<leader>/", "g/c/c/", { desc = "Comment line" })
-map("n", "<leader>t", function()
-  Util.float_term()
-end, { desc = "Terminal (cwd)" })
-
 map("n", "<leader>v", "<cmd>Vista!!<cr>", { desc = "Enable tags window " })
