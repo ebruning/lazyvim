@@ -14,7 +14,8 @@ return {
 
     return {
       options = {
-        theme = "auto",
+        -- theme = "auto",
+        theme = "gruvbox",
         globalstatus = true,
         disabled_filetypes = { statusline = { "dashboard", "lazy", "alpha" } },
       },
