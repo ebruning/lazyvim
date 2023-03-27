@@ -4,3 +4,5 @@
 local opt = vim.opt
 opt.relativenumber = false
 vim.api.nvim_command("set fillchars=eob:\\ ")
+-- vim.api.nvim_command("set colorcolumn=-10,25,+2 textwidth=80")
+vim.api.nvim_command("set colorcolumn=80")
