@@ -15,8 +15,5 @@ return {
         },
       },
     },
-    config = function(_, opts)
-      require("deadcolumn").setup(opts)
-    end,
   },
 }
